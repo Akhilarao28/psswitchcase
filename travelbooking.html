@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var transport=prompt("enter mode of transport").toLowerCase()
+        switch(transport){
+            case "flight":
+                var travel=prompt("enter travel type:").toLowerCase()
+                switch(travel){
+                    case "economy":
+                        console.log(`${transport} of ${travel} is booked`)
+                        break;
+                        case "business":
+                        console.log(`${transport} of ${travel} is booked`)
+                        break;
+                        default:
+                            console.log("enter valid category")
+                }
+                break;
+                case "train":
+                var travel=prompt("enter travel type:").toLowerCase()
+                switch(travel){
+                    case "sleeper":
+                        console.log(`${transport} of ${travel} is booked`)
+                        break;
+                        case "ac":
+                        console.log(`${transport} of ${travel} is booked`)
+                        break;
+                        default:
+                            console.log("enter valid category")
+                }
+                break;
+                case "bus":
+                var travel=prompt("enter travel type:").toLowerCase()
+                switch(travel){
+                    case "standard":
+                        console.log(`${transport} of ${travel} is booked`)
+                        break;
+                        case "luxury":
+                        console.log(`${transport} of ${travel} is booked`)
+                        break;
+                        default:
+                            console.log("enter valid category")
+                }
+                break;
+        }
+    </script>
+</body>
+</html>

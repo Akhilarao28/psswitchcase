@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var products=prompt("enter a product:").toLowerCase()
+        switch(products){
+            case "electronics":
+                var prod=prompt("enter product category:").toLowerCase()
+                switch(prod){
+                    case "mobile":
+                        console.log("5%")
+                        break;
+                    case "laptop":
+                        console.log("10%")
+                        break;
+                        default:
+                            console.log("enter valid category")
+                }
+                break;
+                case "clothing":
+                var prod=prompt("enter product category:").toLowerCase()
+                switch(prod){
+                    case "men":
+                        console.log("15%")
+                        break;
+                    case "women":
+                        console.log("20%")
+                        break;
+                        default:
+                            console.log("enter valid category")
+                }
+                break;
+                case "grocery":
+                var prod=prompt("enter product category:").toLowerCase()
+                switch(prod){
+                    case "fruits":
+                        console.log("5%")
+                        break;
+                    case "vegetables":
+                        console.log("10%")
+                        break;
+                        default:
+                            console.log("enter valid category")
+                }
+                break;
+        }
+    </script>
+</body>
+</html>

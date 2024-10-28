@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var movie=prompt("enter movie:").toLowerCase()
+        switch(movie){
+            case "action":
+                var seat=prompt("enter seat category:").toLowerCase()
+                switch(seat){
+                    case "standard":
+                        console.log("10rs")
+                        break;
+                    case "vip":
+                        console.log("20rs")
+                        break;
+                default:
+                    console.log("enetr valid seat catergory")
+                }
+                    break;
+
+            case "comedy":
+            var seat=prompt("enter seat category:").toLowerCase()
+                switch(seat){
+                    case "standard":
+                        console.log("8rs")
+                        break;
+                    case "vip":
+                        console.log("15rs")
+                        break;
+                default:
+                    console.log("enetr valid seat catergory")
+                }
+                break;
+            case "drama":
+            var seat=prompt("enter seat category:").toLowerCase()
+                switch(seat){
+                    case "standard":
+                        console.log("6rs")
+                        break;
+                    case "vip":
+                        console.log("12rs")
+                        break;
+                default:
+                    console.log("enetr valid seat catergory")
+                }
+                break;
+
+
+
+        }
+    </script>
+</body>
+</html>
